@@ -16,6 +16,7 @@ public class TestAndPerception {
         trainingSet.addRow(new DataSetRow(new double[]{0,1},new double[]{Double.NaN}));
         trainingSet.addRow(new DataSetRow(new double[]{1,1},new double[]{Double.NaN}));
 
+
         MyAndPerceptionNolearn perceptron = new MyAndPerceptionNolearn(2);
 
         for(DataSetRow row : trainingSet){
