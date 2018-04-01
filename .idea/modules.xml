@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/myNeuroph.iml" filepath="$PROJECT_DIR$/myNeuroph.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/src/main/main.iml" filepath="$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../myNeuroph/myNeuroph.iml" filepath="$PROJECT_DIR$/../myNeuroph/myNeuroph.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/src/test/test.iml" filepath="$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/src/test/test.iml" />
     </modules>
   </component>
 </project>

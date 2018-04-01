@@ -1,5 +1,8 @@
+package test;
+
 import org.neuroph.core.data.DataSet;
 import org.neuroph.core.data.DataSetRow;
+import perception.MyAndPerceptionNolearn;
 
 import java.util.Arrays;
 
@@ -19,7 +22,7 @@ public class TestAndPerception {
 
         MyAndPerceptionNolearn perceptron = new MyAndPerceptionNolearn(2);
 
-        for(DataSetRow row : trainingSet){
+        for(DataSetRow row : trainingSet.getRows()){
             double[] networkInput = row.getInput();
             perceptron.setInput(networkInput);
             perceptron.calculate();

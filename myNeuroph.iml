@@ -2,47 +2,33 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../myNeuroph">
-      <sourceFolder url="file://$MODULE_DIR$/../myNeuroph/src" isTestSource="false" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../0318/neuroph-2.94" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="file://$MODULE_DIR$/../0318/neuroph-2.94/apidocs" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../0318/neuroph-2.94" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../0318/neuroph-2.94" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../0318/neuroph-2.94" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../0318/slf4j-1.7.25/slf4j-1.7.25/slf4j-api-1.7.25.jar!/" />
-          <root url="jar://$MODULE_DIR$/../0318/slf4j-1.7.25/slf4j-1.7.25/slf4j-log4j12-1.7.25.jar!/" />
+          <root url="jar://F:/0318/slf4j-1.7.25/slf4j-1.7.25/slf4j-api-1.7.25.jar!/" />
+          <root url="jar://F:/0318/slf4j-1.7.25/slf4j-1.7.25/slf4j-log4j12-1.7.25.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://$MODULE_DIR$/../0318/slf4j-1.7.25/slf4j-1.7.25/slf4j-api-1.7.25-sources.jar!/" />
-          <root url="jar://$MODULE_DIR$/../0318/slf4j-1.7.25/slf4j-1.7.25/slf4j-log4j12-1.7.25-sources.jar!/" />
+          <root url="jar://F:/0318/slf4j-1.7.25/slf4j-1.7.25/slf4j-api-1.7.25-sources.jar!/" />
+          <root url="jar://F:/0318/slf4j-1.7.25/slf4j-1.7.25/slf4j-log4j12-1.7.25-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../0318/apache-log4j-1.2.17/log4j-1.2.17.jar!/" />
+          <root url="jar://F:/0318/apache-log4j-1.2.17/log4j-1.2.17.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

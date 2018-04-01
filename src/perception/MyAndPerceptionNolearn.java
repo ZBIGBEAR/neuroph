@@ -1,3 +1,6 @@
+package perception;
+
+import org.neuroph.core.Connection;
 import org.neuroph.core.Layer;
 import org.neuroph.core.NeuralNetwork;
 import org.neuroph.core.Neuron;
@@ -46,8 +49,8 @@ public class MyAndPerceptionNolearn extends NeuralNetwork {
 
         //设置输入神经元和感知机之间的连接权重
         Neuron n = outputLayer.getNeuronAt(0);
-        n.getInputConnections().get(0).getWeight().setValue(1);
-        n.getInputConnections().get(1).getWeight().setValue(1);
-        n.getInputConnections().get(2).getWeight().setValue(-1.5);
+        n.getInputConnections()[0].getWeight().setValue(1);
+        n.getInputConnections()[1].getWeight().setValue(1);
+        n.getInputConnections()[2].getWeight().setValue(-1.5);
     }
 }
