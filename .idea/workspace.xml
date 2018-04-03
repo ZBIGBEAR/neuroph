@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fa03ade-534c-408c-a0d1-1e4df98c54c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/src/learningrule/AdaLinePerceptronLearn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/src/learningrule/MyMaxErrorStop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/src/learningrule/PerceptronClassifyLearn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/src/learningrule/PerceptronClassifyLearn2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/src/learningrule/PerceptronLearningRule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/src/perception/PerceptronClassifyNoLearn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/src/test/TestAdaLinePerceptronLearn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/src/test/TestClassifyLearn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/src/test/TestClassifyLearn1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/src/test/TestClassifyNoLearn.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../myNeuroph/out/production/myNeuroph/MyAndPerceptionNolearn.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../myNeuroph/out/production/myNeuroph/TestAndPerception.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myNeuroph/.idea/modules.xml" afterPath="$PROJECT_DIR$/../myNeuroph/.idea/modules.xml" />
+    <list default="true" id="3fa03ade-534c-408c-a0d1-1e4df98c54c1" name="Default" comment="感知&#10;数字识别">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/lib/neuroph-core-2.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/myNeuroph/Test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/myNeuroph/Test1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/myNeuroph/learningrule/AdaLinePerceptronLearn.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/myNeuroph/learningrule/MyMaxErrorStop.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/myNeuroph/learningrule/PerceptronClassifyLearn.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/myNeuroph/learningrule/PerceptronClassifyLearn2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/myNeuroph/learningrule/PerceptronLearningRule.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/myNeuroph/perception/MyAndPerceptionNolearn.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/myNeuroph/perception/PerceptronClassifyNoLearn.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/myNeuroph/test/TestAdaLinePerceptronLearn.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/myNeuroph/test/TestAndPerception.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/myNeuroph/test/TestClassifyLearn.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/myNeuroph/test/TestClassifyLearn2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/myNeuroph/test/TestClassifyNoLearn.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/.idea/libraries/lib.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/main/geym/nn/mlperceptron/TS9010/zoo.10.percent.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/main/geym/nn/mlperceptron/TS9010/zoo.90.percent.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/main/geym/nn/mlperceptron/TS9010/zoo.data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/main/geym/nn/mnist/result.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/main/geym/nn/pca/mnist_result.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/out/production/main/geym/nn/som/yearbook/CityList.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/src/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/src/Test1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/src/learningrule/MIPerceptronAndOutputNoLearn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../myNeuroph/src/test/TestMIPerceptronAndOutputNoLearn.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myNeuroph/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../myNeuroph/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myNeuroph/myNeuroph.iml" afterPath="$PROJECT_DIR$/../myNeuroph/myNeuroph.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../myNeuroph/src/MyAndPerceptionNolearn.java" afterPath="$PROJECT_DIR$/../myNeuroph/src/perception/MyAndPerceptionNolearn.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../myNeuroph/src/TestAndPerception.java" afterPath="$PROJECT_DIR$/../myNeuroph/src/test/TestAndPerception.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myNeuroph/src/test/TestAdaLinePerceptronLearn.java" afterPath="$PROJECT_DIR$/../myNeuroph/src/test/TestAdaLinePerceptronLearn.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../myNeuroph/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,62 +41,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TestClassifyLearn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../myNeuroph/src/test/TestClassifyLearn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2009#2010#0" expanded="true" />
-                <element signature="e#2054#2055#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestClassifyLearn1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../myNeuroph/src/test/TestClassifyLearn1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1014#1015#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestAdaLinePerceptronLearn.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../myNeuroph/src/test/TestAdaLinePerceptronLearn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="142" column="28" lean-forward="true" selection-start-line="142" selection-start-column="28" selection-end-line="142" selection-end-column="28" />
+            <state relative-caret-position="240">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Adaline.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/src/main/java/geym/nn/adaline/Adaline.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1547">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdalineDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/src/main/java/geym/nn/adaline/AdalineDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="94" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -103,41 +65,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PerceptronClassifyLearn2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../myNeuroph/src/learningrule/PerceptronClassifyLearn2.java">
+      <file leaf-file-name="TestMIPerceptronAndOutputNoLearn.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../myNeuroph/src/test/TestMIPerceptronAndOutputNoLearn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-788">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdaLinePerceptronLearn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../myNeuroph/src/learningrule/AdaLinePerceptronLearn.java">
+      <file leaf-file-name="Layer.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/lib/neuroph-core-2.8.jar!/org/neuroph/core/Layer.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+            <state relative-caret-position="262">
+              <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LMS.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/lib/neuroph-core-2.8.jar!/org/neuroph/nnet/learning/LMS.class">
+      <file leaf-file-name="LayerFactory.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/lib/neuroph-core-2.8.jar!/org/neuroph/util/LayerFactory.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98">
-              <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="25" />
+            <state relative-caret-position="163">
+              <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PerceptronAxisClassify.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/src/main/java/geym/nn/perceptron/PerceptronAxisClassify.java">
+      <file leaf-file-name="MIPerceptronAndOutputNoLearn.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../myNeuroph/src/learningrule/MIPerceptronAndOutputNoLearn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="68" column="77" lean-forward="false" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MlPerceptron.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/src/main/java/geym/nn/mlperceptron/MlPerceptron.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MlPerceptronAndOutputNoLearn.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/src/main/java/geym/nn/mlperceptron/MlPerceptronAndOutputNoLearn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-651">
+              <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -200,6 +182,8 @@
         <option value="$PROJECT_DIR$/../myNeuroph/src/test/TestClassifyLearn1.java" />
         <option value="$PROJECT_DIR$/../myNeuroph/src/learningrule/AdaLinePerceptronLearn.java" />
         <option value="$PROJECT_DIR$/../myNeuroph/src/test/TestAdaLinePerceptronLearn.java" />
+        <option value="$PROJECT_DIR$/../myNeuroph/src/test/TestMIPerceptronAndOutputNoLearn.java" />
+        <option value="$PROJECT_DIR$/../myNeuroph/src/learningrule/MIPerceptronAndOutputNoLearn.java" />
       </list>
     </option>
   </component>
@@ -239,6 +223,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myNeuroph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myNeuroph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myNeuroph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myNeuroph" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -262,46 +265,20 @@
               <item name="myNeuroph" type="cbb8eebc:String" user="myNeuroph" />
               <item name="myNeuroph" type="cbb8eebc:String" user="myNeuroph" />
               <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="learningrule" type="cbb8eebc:String" user="learningrule" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="myNeuroph" type="cbb8eebc:String" user="myNeuroph" />
-              <item name="myNeuroph" type="cbb8eebc:String" user="myNeuroph" />
-              <item name="src" type="cbb8eebc:String" user="src" />
               <item name="test" type="cbb8eebc:String" user="test" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="myNeuroph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myNeuroph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myNeuroph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myNeuroph" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../0318/neuroph-core-2.8.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myNeuroph/lib/neuroph-core-2.8.jar!/" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="System&#9;PSI&#9;JAVA://com.sun.glass.ui.Clipboard#SYSTEM" />
@@ -401,9 +378,14 @@
       <module name="myNeuroph" />
       <envs />
     </configuration>
-    <configuration name="TestClassifyNoLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="test.TestClassifyNoLearn" />
+    <configuration name="TestMIPerceptronAndOutputNoLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="test.TestMIPerceptronAndOutputNoLearn" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../myNeuroph" />
@@ -497,19 +479,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestClassifyNoLearn" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestClassifyLearn" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AndPerceptron" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestClassifyLearn2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestAdaLinePerceptronLearn" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestClassifyLearn" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AndPerceptron" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestClassifyLearn2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestAdaLinePerceptronLearn" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestMIPerceptronAndOutputNoLearn" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.TestAdaLinePerceptronLearn" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestClassifyLearn2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestClassifyLearn" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AndPerceptron" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestClassifyNoLearn" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestMIPerceptronAndOutputNoLearn" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestClassifyLearn2" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestClassifyLearn" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AndPerceptron" />
       </list>
     </recent_temporary>
   </component>
@@ -531,7 +513,8 @@
       <workItem from="1521860178543" duration="116000" />
       <workItem from="1521903994548" duration="560000" />
       <workItem from="1522422270349" duration="2806000" />
-      <workItem from="1522500288349" duration="18675000" />
+      <workItem from="1522500288349" duration="18981000" />
+      <workItem from="1522756718137" duration="3859000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1521859591427</created>
@@ -547,46 +530,53 @@
       <option name="project" value="LOCAL" />
       <updated>1521859670533</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="感知&#10;数字识别">
+      <created>1522596949636</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1522596949636</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26325000" />
+    <option name="totallyTimeSpent" value="30490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38631347" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46909493" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46909493" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38631347" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,94 +587,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试提交" />
+    <MESSAGE value="感知&#10;数字识别" />
+    <option name="LAST_COMMIT_MESSAGE" value="感知&#10;数字识别" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../myNeuroph/src/perception/MyAndPerceptionNolearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myNeuroph/src/test/TestAndPerception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myNeuroph/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myNeuroph/src/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myNeuroph/src/perception/MyAndPerceptionNolearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myNeuroph/src/test/TestAndPerception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myNeuroph/src/perception/MyAndPerceptionNolearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myNeuroph/src/test/TestAndPerception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../myNeuroph/src/perception/MyAndPerceptionNolearn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -730,10 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="59" column="20" lean-forward="false" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-          <folding>
-            <element signature="e#1420#1421#0" expanded="false" />
-            <element signature="e#1453#1454#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="327" column="23" lean-forward="false" selection-start-line="327" selection-start-column="23" selection-end-line="327" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="178" column="25" lean-forward="false" selection-start-line="178" selection-start-column="25" selection-end-line="178" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,10 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-189">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -835,9 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -845,18 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-66">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myNeuroph/src/learningrule/PerceptronClassifyLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="52" />
-          <folding>
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-377">
           <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
           <caret line="32" column="50" lean-forward="false" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="175" column="43" lean-forward="false" selection-start-line="175" selection-start-column="31" selection-end-line="175" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4681">
           <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="93" column="39" lean-forward="false" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,9 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -930,19 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myNeuroph/src/perception/MyAndPerceptionNolearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="53" column="33" lean-forward="false" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,23 +822,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-840">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/src/main/java/geym/nn/perceptron/PerceptronAxisClassify.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="660">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../myNeuroph/src/test/TestClassifyLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
+        <state relative-caret-position="297">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -986,17 +845,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../myNeuroph/src/learningrule/PerceptronClassifyLearn2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-788">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/lib/neuroph-core-2.8.jar!/org/neuroph/nnet/learning/LMS.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
+        <state relative-caret-position="924">
           <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="25" />
           <folding />
         </state>
@@ -1004,19 +855,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../myNeuroph/src/test/TestClassifyLearn1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="297">
           <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/src/main/java/geym/nn/adaline/Adaline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1547">
+        <state relative-caret-position="132">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
@@ -1024,8 +875,8 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/src/main/java/geym/nn/adaline/AdalineDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="94" selection-end-column="21" />
+        <state relative-caret-position="264">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="94" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1034,14 +885,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="160" column="16" lean-forward="false" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myNeuroph/src/learningrule/PerceptronClassifyLearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myNeuroph/src/perception/MyAndPerceptionNolearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../myNeuroph/src/learningrule/AdaLinePerceptronLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        <state relative-caret-position="166">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myNeuroph/src/learningrule/PerceptronClassifyLearn2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1056,10 +932,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/src/main/java/geym/nn/mlperceptron/MlPerceptron.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/lib/neuroph-core-2.8.jar!/org/neuroph/util/NeuronProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/lib/neuroph-core-2.8.jar!/org/neuroph/util/LayerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/lib/neuroph-core-2.8.jar!/org/neuroph/core/Layer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/lib/neuroph-core-2.8.jar!/org/neuroph/util/NeuronFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="23" column="66" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/自己动手写神经网络_随书代码/nn.practice/src/main/java/geym/nn/mlperceptron/MlPerceptronAndOutputNoLearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-651">
+          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myNeuroph/src/learningrule/MIPerceptronAndOutputNoLearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="68" column="77" lean-forward="false" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myNeuroph/src/test/TestMIPerceptronAndOutputNoLearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../myNeuroph/src/test/TestAdaLinePerceptronLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="142" column="28" lean-forward="true" selection-start-line="142" selection-start-column="28" selection-end-line="142" selection-end-column="28" />
+        <state relative-caret-position="240">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

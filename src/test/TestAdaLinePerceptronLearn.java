@@ -95,7 +95,7 @@ class TestAdaLinePerceptronLearn implements LearningEventListener {
                     " OOO ",
                     "O   O",
                     "O   O",
-                    "O   O",
+                    " 000 ",
                     "O   O",
                     "O   O",
                     " OOO "  },
