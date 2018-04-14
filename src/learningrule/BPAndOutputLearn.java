@@ -1,14 +1,20 @@
 package learningrule;
 
 import org.neuroph.core.*;
-import org.neuroph.core.input.And;
+import org.neuroph.core.events.LearningEvent;
+import org.neuroph.core.events.LearningEventListener;
+import org.neuroph.core.learning.IterativeLearning;
+import org.neuroph.core.learning.SupervisedLearning;
 import org.neuroph.core.transfer.Linear;
+import org.neuroph.core.transfer.Step;
 import org.neuroph.nnet.comp.neuron.BiasNeuron;
 import org.neuroph.nnet.comp.neuron.InputNeuron;
-import org.neuroph.nnet.learning.LMS;
+import org.neuroph.nnet.learning.BackPropagation;
 import org.neuroph.util.*;
+import org.neuroph.util.random.NguyenWidrowRandomizer;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -16,8 +22,8 @@ import java.util.List;
  * @Description:
  * @Date: Created in 2018/3/30 23:11
  */
-public class MIPerceptronAndOutputNoLearn extends NeuralNetwork{
-    public MIPerceptronAndOutputNoLearn(TransferFunctionType transferFunctionType,int...neronsLayers)
+public class BPAndOutputLearn extends NeuralNetwork implements LearningEventListener {
+    public BPAndOutputLearn(TransferFunctionType transferFunctionType, int...neronsLayers)
     {
         //super(transferFunctionType,neronsLayers);
         //createNetwork(neronsLayers,neuronProperties);
@@ -49,27 +55,26 @@ public class MIPerceptronAndOutputNoLearn extends NeuralNetwork{
             }
             preLayer = layer;
         }
-        //设置初始权值
-        Neuron n1 = layer.getNeuronAt(0);
-        Connection[]c1 = n1.getInputConnections();
-        c1[0].setWeight(new Weight(2));
-        c1[1].setWeight(new Weight(2));
-        c1[2].setWeight(new Weight(-1));
 
-        Neuron n2 = layer.getNeuronAt(1);
-        Connection[]c2 = n2.getInputConnections();
-        c2[0].setWeight(new Weight(-2));
-        c2[1].setWeight(new Weight(-2));
-        c2[2].setWeight(new Weight(3));
-        //建立输出神经元，输入函数为逻辑与
-        NeuronProperties outputProperties = new NeuronProperties();
-        outputProperties.setProperty("inputFunction", And.class);
-
-        //创建输出层
-        layer = LayerFactory.createLayer(neronsLayers.get(i),outputProperties);
+        //创建输出神经元
+        NeuronProperties outProperties = new NeuronProperties();
+        outProperties.setProperty("transferFunction",Step.class);
+        layer = LayerFactory.createLayer(neronsLayers.get(i),outProperties);
         this.addLayer(layer);
         ConnectionFactory.fullConnect(preLayer,layer);
-
+        preLayer = layer;
         NeuralNetworkFactory.setDefaultIO(this);
+
+        this.setLearningRule(new BackPropagation());
+        //this.randomizeWeights(new NguyenWidrowRandomizer(-0.7,0.7));
+        ((SupervisedLearning)this.getLearningRule()).setMaxError(0.0001d);
+        //this.getLearningRule().addListener(this);
+    }
+
+    @Override
+    public void handleLearningEvent(LearningEvent event) {
+        IterativeLearning bp = (IterativeLearning)event.getSource();
+        System.out.println("iterate:"+bp.getCurrentIteration());
+        System.out.println("weights:"+ Arrays.toString(bp.getNeuralNetwork().getWeights()));
     }
 }
