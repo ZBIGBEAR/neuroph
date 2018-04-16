@@ -1,3 +1,7 @@
+import util.Utils;
+
+import java.util.Arrays;
+
 /**
  * @Author: 李钰萍
  * @Description:
@@ -15,9 +19,24 @@ public class Test {
     private int x,y;
 
     public static void main(String[] args) {
+        /*
         Test t = new Test1();
         (t.x)--;
-        System.out.println(t.x);
+        System.out.println(t.x);*/
+        double[] test1 = new double[10];
+        double[] test2 = new double[10];
+        for(int i=0;i<test1.length;i++){
+            if(i%3==0){
+                test1[i]=1;
+                test2[i]=1;
+            }else{
+                test1[i]=0;
+                test2[i]=0;
+            }
+        }
+        System.out.println(Arrays.toString(test1));
+        System.out.println(Arrays.toString(test2));
+        System.out.println(Utils.isEqual(test1,test2));
 
     }
 }

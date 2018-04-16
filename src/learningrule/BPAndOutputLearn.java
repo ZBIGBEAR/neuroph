@@ -67,7 +67,7 @@ public class BPAndOutputLearn extends NeuralNetwork implements LearningEventList
 
         this.setLearningRule(new BackPropagation());
         //this.randomizeWeights(new NguyenWidrowRandomizer(-0.7,0.7));
-        ((SupervisedLearning)this.getLearningRule()).setMaxError(0.0001d);
+        //((SupervisedLearning)this.getLearningRule()).setMaxError(0.0001d);
         //this.getLearningRule().addListener(this);
     }
 
